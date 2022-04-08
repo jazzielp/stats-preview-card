@@ -49,20 +49,20 @@ html{
     position: relative;
     width: 100%;
     height: 200px;
-    background-image: url("../img/image-header-mobile.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 10px 10px 0 0;
+    background: var(--soft-violet);
 }
 
 .header__background{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: var(--soft-violet);
-    opacity: 0.75;
+    background-image: url("../img/image-header-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px 10px 0 0;
+    opacity: 0.6;
 }
 
 
