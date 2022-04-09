@@ -125,3 +125,58 @@ html{
 
 
 
+@media screen and (min-width: 1200px){
+    .main{
+        flex-direction: row;
+        width: 80%;
+        max-width: 1200px;
+        height: 450px;
+        
+    }
+
+    .header{
+        height: 100%;
+        width: 50%;
+        order: 2;
+        border-radius: 0px 10px 10px 0;
+        
+    }
+
+    .header__background{
+        border-radius: 0px 10px 10px 0;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 50%;  
+
+    }
+
+    .content__title,
+    .content__container-cards,
+    .content__paragraph{
+        width: 70%;
+        text-align: left;
+    }
+
+    .content__container-cards{
+        flex-direction: row;
+
+    }
+
+    .content__title{
+        margin-top: 0;
+        font-size: 3.2rem;
+    }
+
+    .content__card{
+        margin-top: 40px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    
+}
